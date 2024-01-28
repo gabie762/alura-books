@@ -1,6 +1,6 @@
-import Input from '../Input';
-import styled from 'styled-components';
 import { useState } from 'react';
+import styled from 'styled-components';
+import Input from '../Input';
 import { livros } from './dadosPesquisa.js';
 
 const PesquisaContainer = styled.section`

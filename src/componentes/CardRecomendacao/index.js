@@ -44,7 +44,7 @@ const ImgLivro = styled.img`
     width: 150px;
 `
 
-function CardRecomenda({titulo, subtitulo, descricao, img}) {
+function CardRecomendacao({titulo, subtitulo, descricao, img}) {
     return (
         <Card>
             <div>
@@ -60,4 +60,4 @@ function CardRecomenda({titulo, subtitulo, descricao, img}) {
     )
 }
 
-export default CardRecomenda
+export default CardRecomendacao
