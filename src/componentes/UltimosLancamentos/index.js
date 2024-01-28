@@ -27,17 +27,17 @@ function UltimosLancamentos() {
           tamanhoFonte="36px">
           ÚLTIMOS LANÇAMENTOS
         </Titulo>
-        <NovosLivrosContainer>
-            {livros.map(livro => (
-              <img src ={livro.src} />
-            ))}
-        </NovosLivrosContainer>
-        <CardRecomendacao
-            titulo="Talvez você se interesse por..."
-            subtitulo="Angular 11"
-            descricao="Construindo uma aplicação com a platarforma Google"
-            img={imagemLivro}>
-          </CardRecomendacao>
+          <NovosLivrosContainer>
+              {livros.map(livro => (
+                <img src ={livro.src} />
+              ))}
+          </NovosLivrosContainer>
+          <CardRecomendacao
+              titulo="Talvez você se interesse por..."
+              subtitulo="Angular 11"
+              descricao="Construindo uma aplicação com a platarforma Google"
+              img={imagemLivro}>
+            </CardRecomendacao>
       </UltimosLancamentosContainer>
   )
 }
